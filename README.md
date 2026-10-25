@@ -3,7 +3,7 @@
 > Point-and-click in-browser visual feedback and annotation toolbar designed for human-AI collaborative web development.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.2.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
+[![Version](https://img.shields.io/badge/version-1.3.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Bundle Size](https://img.shields.io/badge/bundle-zero--dependencies-orange.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Platform](https://img.shields.io/badge/platform-HTML%20%7C%20PHP%20%7C%20React%20%7C%20Next.js%20%7C%20WordPress-purple.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdul%20Moiz%20Baig-0A66C2.svg?logo=linkedin)](https://www.linkedin.com/in/a-moiz-baig/)
@@ -34,8 +34,34 @@ Communicating visual UI changes to AI coding agents (Antigravity, Claude, Cursor
 
 - **Point-and-Click Inspection:** Click any DOM element (button, card, hero title, navigation link) to highlight and outline its exact boundaries.
 - **Contextual Feedback:** Type your desired edits directly inside an inline modal overlay (*"Change color to neon yellow"*, *"Replace copy with 'Book Strategy Call'"*).
+- **Exact Media & Image Path Capture:** Clicking an `<img>` automatically grabs its exact filename/path (e.g., `img [src="p4-with-box-light.webp"]`) so AI agents locate the asset instantly.
+- **Quick Action Directives:** Built-in support for shorthand tags like `[Remove]`, `[Rotate]`, `[Flip]`, `[Swap Image]`, and `[Change Text]` for rapid non-typing workflows.
 - **AI-Optimized Markdown Output:** Automatically compiles DOM hierarchy, computed styles, bounding box coordinates, and exact text content into structured markdown prompts ready for instant copy-pasting into AI chat windows.
 - **Zero Production Overhead:** Completely dormant and hidden for regular site visitors. Activates exclusively when invoked with `?edit`, `#edit`, or the `Ctrl + Shift + A` keyboard shortcut.
+
+---
+
+## ⚡ Built-in Improvements & Features
+
+### 1. Exact Image `src` & Filename Detection
+When selecting an `<img>` tag, Agentation automatically extracts the image filename and alt text:
+```markdown
+- Element: `img [src="p4-with-box-light.webp"] "Cognac Stripe Wallet"`
+```
+This enables your AI agent to swap or resize the exact file directly in your code without ambiguity.
+
+### 2. Quick Action Directives
+Use shorthand bracketed tags to instruct AI agents in fewer keystrokes:
+
+| Tag | Purpose | Example |
+|---|---|---|
+| `[Remove]` | Remove or hide element | `[Remove] delete outdated seasonal promo badge` |
+| `[Change Text]` | Replace wording cleanly | `[Change Text] "Get Started Today"` |
+| `[Swap Image]` | Change image file source | `[Swap Image: hero-dark.webp]` |
+| `[Rotate <deg>]` | Rotate element | `[Rotate 90deg] orient arrow downward` |
+| `[Flip X]` / `[Flip Y]` | Mirror graphic | `[Flip X] face illustration to the right` |
+| `[Change Color]` | Palette adjustments | `[Change Color: #D4FF3D] make neon yellow` |
+| `[Fix Spacing]` | Margins & paddings | `[Fix Spacing] add 24px bottom margin` |
 
 ---
 
@@ -110,12 +136,11 @@ Now, clicking that bookmark on **any** web page injects the toolbar instantly!
 When you finish selecting elements and click **Copy Feedback**, Agentation produces structured prompt markdown like this:
 
 ```markdown
-## Page Feedback: /service.php?edit
-- Element: `button.btn-primary.cta-btn`
-- Bounding Box: { x: 340, y: 520, width: 180, height: 48 }
-- Selected Text: "Book Free Consultation"
-- Computed Styles: { font-size: "16px", color: "rgb(255, 255, 255)", background: "#0F172A" }
-- Change Request: "Update button background to accent neon (#D4FF3D), change font color to dark slate (#0B0F19), and change text to 'Launch AI Agent Now'."
+## Page Feedback: /products.php?edit
+- Element: `img [src="p4-with-box-light.webp"] "Cognac Stripe Wallet"`
+- Bounding Box: { x: 340, y: 520, width: 280, height: 280 }
+- Computed Styles: { width: "280px", height: "280px", object-fit: "cover" }
+- Change Request: "[Swap Image: p4-with-box-dark.webp] Change product hero photo to dark leather edition"
 
 ---
 > ⚡ Powered by Automatixes | AI Automation Services: https://automatixes.com | LinkedIn: https://www.linkedin.com/in/a-moiz-baig/ | WhatsApp: +92 336 6920141
@@ -164,7 +189,7 @@ Maintained with excellence by **[Abdul Moiz Baig](https://www.linkedin.com/in/a-
 
 - 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
 - 💼 **LinkedIn:** [linkedin.com/in/a-moiz-baig](https://www.linkedin.com/in/a-moiz-baig/)
-- 💬 **WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
+- 💬 **Direct WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
 - ✉️ **Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
 
 Distributed under the **MIT License**. Free for personal, commercial, and agency use.
