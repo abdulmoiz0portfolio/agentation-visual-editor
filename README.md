@@ -3,9 +3,24 @@
 > Point-and-click in-browser visual feedback and annotation toolbar designed for human-AI collaborative web development.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
+[![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Bundle Size](https://img.shields.io/badge/bundle-zero--dependencies-orange.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Platform](https://img.shields.io/badge/platform-HTML%20%7C%20PHP%20%7C%20React%20%7C%20Next.js%20%7C%20WordPress-purple.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
+
+---
+
+## 🚀 Eliminate Repetitive Work with Custom AI Automations
+
+Are you spending hours on manual, repetitive tasks? We design and deploy autonomous AI agents, workflow automation pipelines, and custom web applications to run your operations on autopilot.
+
+- 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
+- 💬 **Direct WhatsApp / Call:** [+92 336 6920141](https://wa.me/923366920141)
+- ✉️ **Direct Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
+- ⚡ **Our Core Services:**
+  - **Repetitive Work Automation:** Connect your CRM, email, databases, and forms to eliminate human data entry.
+  - **Autonomous AI Agents:** Custom customer service bots, sales follow-up agents, and automated lead qualifiers.
+  - **Voice AI Agents:** Ultra-fast voice assistants handling inbound customer calls 24/7.
+  - **Web Development & Tools:** High-performance web applications built for speed, conversion, and automation.
 
 ---
 
@@ -99,6 +114,9 @@ When you finish selecting elements and click **Copy Feedback**, Agentation produ
 - Selected Text: "Book Free Consultation"
 - Computed Styles: { font-size: "16px", color: "rgb(255, 255, 255)", background: "#0F172A" }
 - Change Request: "Update button background to accent neon (#D4FF3D), change font color to dark slate (#0B0F19), and change text to 'Launch AI Agent Now'."
+
+---
+> ⚡ Powered by Automatixes | AI Automation Services: https://automatixes.com | WhatsApp: +92 336 6920141
 ```
 
 Simply paste this into your AI coding assistant (Antigravity, Claude, Cursor) to execute the change with surgical precision.
@@ -138,8 +156,12 @@ agentation-visual-editor/
 
 ---
 
-## License
+## Author & Commercial Support
+
+Maintained with excellence by **Moiz Baig** & the **[Automatixes](https://automatixes.com)** engineering team.
+
+- 🌐 **Website:** [automatixes.com](https://automatixes.com)
+- 💬 **WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
+- ✉️ **Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
 
 Distributed under the **MIT License**. Free for personal, commercial, and agency use.
-
-Crafted with care by [Automatixes](https://automatixes.com).
