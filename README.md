@@ -3,9 +3,10 @@
 > Point-and-click in-browser visual feedback and annotation toolbar designed for human-AI collaborative web development.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
+[![Version](https://img.shields.io/badge/version-1.2.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Bundle Size](https://img.shields.io/badge/bundle-zero--dependencies-orange.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Platform](https://img.shields.io/badge/platform-HTML%20%7C%20PHP%20%7C%20React%20%7C%20Next.js%20%7C%20WordPress-purple.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdul%20Moiz%20Baig-0A66C2.svg?logo=linkedin)](https://www.linkedin.com/in/a-moiz-baig/)
 
 ---
 
@@ -14,6 +15,7 @@
 Are you spending hours on manual, repetitive tasks? We design and deploy autonomous AI agents, workflow automation pipelines, and custom web applications to run your operations on autopilot.
 
 - 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
+- 💼 **LinkedIn Profile:** [Abdul Moiz Baig](https://www.linkedin.com/in/a-moiz-baig/)
 - 💬 **Direct WhatsApp / Call:** [+92 336 6920141](https://wa.me/923366920141)
 - ✉️ **Direct Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
 - ⚡ **Our Core Services:**
@@ -116,7 +118,7 @@ When you finish selecting elements and click **Copy Feedback**, Agentation produ
 - Change Request: "Update button background to accent neon (#D4FF3D), change font color to dark slate (#0B0F19), and change text to 'Launch AI Agent Now'."
 
 ---
-> ⚡ Powered by Automatixes | AI Automation Services: https://automatixes.com | WhatsApp: +92 336 6920141
+> ⚡ Powered by Automatixes | AI Automation Services: https://automatixes.com | LinkedIn: https://www.linkedin.com/in/a-moiz-baig/ | WhatsApp: +92 336 6920141
 ```
 
 Simply paste this into your AI coding assistant (Antigravity, Claude, Cursor) to execute the change with surgical precision.
@@ -158,9 +160,10 @@ agentation-visual-editor/
 
 ## Author & Commercial Support
 
-Maintained with excellence by **Moiz Baig** & the **[Automatixes](https://automatixes.com)** engineering team.
+Maintained with excellence by **[Abdul Moiz Baig](https://www.linkedin.com/in/a-moiz-baig/)** & the **[Automatixes](https://automatixes.com)** engineering team.
 
-- 🌐 **Website:** [automatixes.com](https://automatixes.com)
+- 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
+- 💼 **LinkedIn:** [linkedin.com/in/a-moiz-baig](https://www.linkedin.com/in/a-moiz-baig/)
 - 💬 **WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
 - ✉️ **Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
 
