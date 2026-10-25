@@ -1,5 +1,5 @@
 {
-  "name": "@automatixes/agentation-visual-editor",
+  "name": "@abdulmoiz0portfolio/agentation-visual-editor",
   "version": "1.0.0",
   "description": "Point-and-click in-browser visual feedback & annotation toolbar for AI coding assistants.",
   "main": "dist/agentation-widget.min.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/automatixes/agentation-visual-editor.git"
+    "url": "git+https://github.com/abdulmoiz0portfolio/agentation-visual-editor.git"
   },
   "keywords": [
     "ai",
@@ -24,7 +24,7 @@
   "author": "Moiz Baig <contact@automatixes.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/automatixes/agentation-visual-editor/issues"
+    "url": "https://github.com/abdulmoiz0portfolio/agentation-visual-editor/issues"
   },
   "homepage": "https://automatixes.com"
 }

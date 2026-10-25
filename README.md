@@ -1,28 +1,28 @@
-# 🎯 Agentation Visual Editor & Feedback Toolbar
+# ðŸŽ¯ Agentation Visual Editor & Feedback Toolbar
 
 > **Point-and-click in-browser visual feedback & annotation toolbar designed for human-AI collaborative web development.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/automatixes/agentation-visual-editor)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/abdulmoiz0portfolio/agentation-visual-editor)
 [![Bundle Size](https://img.shields.io/badge/bundle-zero--dependencies-orange.svg)]()
 [![Platform](https://img.shields.io/badge/platform-HTML%20%7C%20PHP%20%7C%20React%20%7C%20Next.js%20%7C%20WordPress-purple.svg)]()
 
 ---
 
-## 💡 Overview
+## ðŸ’¡ Overview
 
 Communicating visual UI changes to AI coding agents (Antigravity, Claude, Cursor, Copilot) or remote development teams is often friction-heavy. Inspecting raw CSS selectors, taking screenshots, and typing verbose descriptions wastes time.
 
 **Agentation** solves this by embedding a lightweight, zero-latency visual annotation canvas into any web application:
 
-- 🖱️ **Point-and-Click Inspection:** Click any DOM element (button, card, hero title, navigation link) to highlight and outline its exact boundaries.
-- ✍️ **Contextual Feedback:** Type your desired edits directly inside an inline modal overlay (*"Change color to neon yellow"*, *"Replace copy with 'Book Strategy Call'"*).
-- 🤖 **AI-Optimized Markdown Output:** Automatically compiles DOM hierarchy, computed styles, bounding box coordinates, and exact text content into structured markdown prompts ready for instant copy-pasting into AI chat windows.
-- ⚡ **Zero Production Overhead:** Completely dormant and hidden for regular site visitors. Activates exclusively when invoked with `?edit`, `#edit`, or the `Ctrl + Shift + A` keyboard shortcut.
+- ðŸ–±ï¸ **Point-and-Click Inspection:** Click any DOM element (button, card, hero title, navigation link) to highlight and outline its exact boundaries.
+- âœï¸ **Contextual Feedback:** Type your desired edits directly inside an inline modal overlay (*"Change color to neon yellow"*, *"Replace copy with 'Book Strategy Call'"*).
+- ðŸ¤– **AI-Optimized Markdown Output:** Automatically compiles DOM hierarchy, computed styles, bounding box coordinates, and exact text content into structured markdown prompts ready for instant copy-pasting into AI chat windows.
+- âš¡ **Zero Production Overhead:** Completely dormant and hidden for regular site visitors. Activates exclusively when invoked with `?edit`, `#edit`, or the `Ctrl + Shift + A` keyboard shortcut.
 
 ---
 
-## 🚀 Activation Triggers
+## ðŸš€ Activation Triggers
 
 Once added to a website, the toolbar can be summoned using any of the following triggers:
 
@@ -35,7 +35,7 @@ Once added to a website, the toolbar can be summoned using any of the following 
 
 ---
 
-## 🛠️ Quickstart & Integration
+## ðŸ› ï¸ Quickstart & Integration
 
 ### Option 1: Static HTML, PHP, or WordPress (1-Line Embed)
 
@@ -81,14 +81,14 @@ Want to use Agentation on a third-party website or a production site without mod
 3. In the URL field, paste the following snippet:
 
 ```javascript
-javascript:(function(){if(window.AgentationWidget){window.AgentationWidget.toggleAgentation();return;}var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/automatixes/agentation-visual-editor@main/dist/agentation-widget.min.js';s.onload=function(){window.AgentationWidget&&window.AgentationWidget.mountAgentation();};document.body.appendChild(s);})();
+javascript:(function(){if(window.AgentationWidget){window.AgentationWidget.toggleAgentation();return;}var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/abdulmoiz0portfolio/agentation-visual-editor@main/dist/agentation-widget.min.js';s.onload=function(){window.AgentationWidget&&window.AgentationWidget.mountAgentation();};document.body.appendChild(s);})();
 ```
 
 Now, clicking that bookmark on **any** web page injects the toolbar instantly!
 
 ---
 
-## 📋 Sample AI Output Format
+## ðŸ“‹ Sample AI Output Format
 
 When you finish selecting elements and click **Copy Feedback**, Agentation produces structured prompt markdown like this:
 
@@ -105,32 +105,32 @@ Simply paste this into your AI coding assistant (Antigravity, Claude, Cursor) to
 
 ---
 
-## 📁 Repository Structure
+## ðŸ“ Repository Structure
 
 ```text
 agentation-visual-editor/
-├── .github/
-│   └── workflows/
-│       └── release.yml          # Automated CI/CD release workflow
-├── dist/
-│   ├── agentation-widget.js     # Standalone production distribution
-│   └── agentation-widget.min.js # Minified zero-dependency bundle
-├── examples/
-│   ├── html-php/                # Static HTML and PHP integration examples
-│   ├── nextjs-react/            # Next.js and React component examples
-│   └── bookmarklet/             # One-click browser bookmarklet script
-├── scripts/
-│   ├── install-agentation.ps1   # PowerShell automated installer
-│   └── install-agentation.sh    # Bash automated installer
-├── SKILL.md                     # Agent skill definition for AI coding assistants
-├── README.md                    # Project documentation
-├── LICENSE                      # MIT Open Source License
-└── package.json                 # Package metadata and manifest
+â”œâ”€â”€ .github/
+â”‚   â””â”€â”€ workflows/
+â”‚       â””â”€â”€ release.yml          # Automated CI/CD release workflow
+â”œâ”€â”€ dist/
+â”‚   â”œâ”€â”€ agentation-widget.js     # Standalone production distribution
+â”‚   â””â”€â”€ agentation-widget.min.js # Minified zero-dependency bundle
+â”œâ”€â”€ examples/
+â”‚   â”œâ”€â”€ html-php/                # Static HTML and PHP integration examples
+â”‚   â”œâ”€â”€ nextjs-react/            # Next.js and React component examples
+â”‚   â””â”€â”€ bookmarklet/             # One-click browser bookmarklet script
+â”œâ”€â”€ scripts/
+â”‚   â”œâ”€â”€ install-agentation.ps1   # PowerShell automated installer
+â”‚   â””â”€â”€ install-agentation.sh    # Bash automated installer
+â”œâ”€â”€ SKILL.md                     # Agent skill definition for AI coding assistants
+â”œâ”€â”€ README.md                    # Project documentation
+â”œâ”€â”€ LICENSE                      # MIT Open Source License
+â””â”€â”€ package.json                 # Package metadata and manifest
 ```
 
 ---
 
-## 🔒 Security & Performance Guarantees
+## ðŸ”’ Security & Performance Guarantees
 
 - **No Remote Network Leaks:** All visual annotations and bounding-box computations execute entirely within local browser memory.
 - **Zero Performance Penalty:** Default visitor visits incur zero DOM mutations or event listener overhead.
@@ -138,7 +138,7 @@ agentation-visual-editor/
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
 Distributed under the **MIT License**. Free for personal, commercial, and agency use.
 
