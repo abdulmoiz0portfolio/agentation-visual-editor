@@ -10,15 +10,15 @@
 
 ---
 
-## 🚀 Eliminate Repetitive Work with Custom AI Automations
+## Eliminate Repetitive Work with Custom AI Automations
 
 Are you spending hours on manual, repetitive tasks? We design and deploy autonomous AI agents, workflow automation pipelines, and custom web applications to run your operations on autopilot.
 
-- 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
-- 💼 **LinkedIn Profile:** [Abdul Moiz Baig](https://www.linkedin.com/in/a-moiz-baig/)
-- 💬 **Direct WhatsApp / Call:** [+92 336 6920141](https://wa.me/923366920141)
-- ✉️ **Direct Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
-- ⚡ **Our Core Services:**
+- **Agency Website:** [automatixes.com](https://automatixes.com)
+- **LinkedIn Profile:** [Abdul Moiz Baig](https://www.linkedin.com/in/a-moiz-baig/)
+- **Direct WhatsApp / Call:** [+92 336 6920141](https://wa.me/923366920141)
+- **Direct Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
+- **Our Core Services:**
   - **Repetitive Work Automation:** Connect your CRM, email, databases, and forms to eliminate human data entry.
   - **Autonomous AI Agents:** Custom customer service bots, sales follow-up agents, and automated lead qualifiers.
   - **Voice AI Agents:** Ultra-fast voice assistants handling inbound customer calls 24/7.
@@ -26,24 +26,122 @@ Are you spending hours on manual, repetitive tasks? We design and deploy autonom
 
 ---
 
-## Overview
+## Installation
 
-Communicating visual UI changes to AI coding agents (Antigravity, Claude, Cursor, Copilot) or remote development teams is often friction-heavy. Inspecting raw CSS selectors, taking screenshots, and typing verbose descriptions wastes time.
+Choose the installation method that fits your workflow:
 
-**Agentation** solves this by embedding a lightweight, zero-latency visual annotation canvas into any web application:
+### Method 1: Install as an AI Agent Skill (Antigravity, Claude Code, Cursor)
 
-- **Point-and-Click Inspection:** Click any DOM element (button, card, hero title, navigation link) to highlight and outline its exact boundaries.
-- **Contextual Feedback:** Type your desired edits directly inside an inline modal overlay (*"Change color to neon yellow"*, *"Replace copy with 'Book Strategy Call'"*).
-- **Exact Media & Image Path Capture:** Clicking an `<img>` automatically grabs its exact filename/path (e.g., `img [src="p4-with-box-light.webp"]`) so AI agents locate the asset instantly.
-- **Quick Action Directives:** Built-in support for shorthand tags like `[Remove]`, `[Rotate]`, `[Flip]`, `[Swap Image]`, and `[Change Text]` for rapid non-typing workflows.
-- **AI-Optimized Markdown Output:** Automatically compiles DOM hierarchy, computed styles, bounding box coordinates, and exact text content into structured markdown prompts ready for instant copy-pasting into AI chat windows.
-- **Zero Production Overhead:** Completely dormant and hidden for regular site visitors. Activates exclusively when invoked with `?edit`, `#edit`, or the `Ctrl + Shift + A` keyboard shortcut.
+Install this skill directly into your AI agent environment so you can use it across any project:
+
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/abdulmoiz0portfolio/agentation-visual-editor.git "$HOME\.gemini\config\skills\agentation-visual-editor"
+```
+
+**macOS / Linux (Bash):**
+```bash
+git clone https://github.com/abdulmoiz0portfolio/agentation-visual-editor.git ~/.gemini/config/skills/agentation-visual-editor
+```
+
+Once installed, simply tell your AI assistant in any chat:
+> *"Use agentation-visual-editor skill to add the visual editor toolbar to this project."*
 
 ---
 
-## ⚡ Built-in Improvements & Features
+### Method 2: Zero-Download 1-Line Free CDN Embed (Fastest)
 
-### 1. Exact Image `src` & Filename Detection
+For any HTML, PHP, Laravel, WordPress, or Shopify site, simply paste this line before the closing `</body>` tag. No file download required:
+
+```html
+<!-- Agentation Visual Editor (Free jsDelivr CDN) -->
+<script src="https://cdn.jsdelivr.net/gh/abdulmoiz0portfolio/agentation-visual-editor@main/dist/agentation-widget.min.js" defer></script>
+```
+
+---
+
+### Method 3: Automated 1-Click Terminal Installer (Local Assets)
+
+Run this single command from your project root to automatically download and place `agentation-widget.js` into your `assets/js/` directory:
+
+**Windows (PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/abdulmoiz0portfolio/agentation-visual-editor/main/scripts/install-agentation.ps1 | iex
+```
+
+**macOS / Linux (Bash):**
+```bash
+curl -sSL https://raw.githubusercontent.com/abdulmoiz0portfolio/agentation-visual-editor/main/scripts/install-agentation.sh | bash
+```
+
+Then add this script tag before `</body>`:
+```html
+<script src="assets/js/agentation-widget.js" defer></script>
+```
+
+---
+
+### Method 4: Next.js (App Router / Pages Router) & React
+
+1. Install via git or place `dist/agentation-widget.js` in your `public/` folder:
+```bash
+npm install git+https://github.com/abdulmoiz0portfolio/agentation-visual-editor.git
+```
+
+2. Create `components/AgentationWidget.tsx`:
+```tsx
+'use client';
+
+import Script from 'next/script';
+
+export default function AgentationWidget() {
+  return (
+    <Script
+      src="https://cdn.jsdelivr.net/gh/abdulmoiz0portfolio/agentation-visual-editor@main/dist/agentation-widget.min.js"
+      strategy="lazyOnload"
+      onLoad={() => {
+        console.log('[Agentation] Visual Editor ready. Press Ctrl+Shift+A to toggle.');
+      }}
+    />
+  );
+}
+```
+
+3. Mount `<AgentationWidget />` inside your root layout (`app/layout.tsx` or `pages/_app.tsx`).
+
+---
+
+### Method 5: Universal Browser Bookmarklet (Zero Code Changes on Any Website)
+
+Inspect and annotate **any** live website on the internet without touching its code:
+
+1. Create a new browser bookmark named **Agentation Inspector**.
+2. Paste this snippet into the **URL / Location** field:
+
+```javascript
+javascript:(function(){if(window.AgentationWidget){window.AgentationWidget.toggleAgentation();return;}var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/abdulmoiz0portfolio/agentation-visual-editor@main/dist/agentation-widget.min.js';s.onload=function(){window.AgentationWidget&&window.AgentationWidget.mountAgentation();};document.body.appendChild(s);})();
+```
+
+3. Click the bookmark on any website to immediately open the Agentation toolbar!
+
+---
+
+## Activation Triggers
+
+Once installed, the toolbar stays completely hidden and dormant for regular visitors (0% layout shift, 0% CPU overhead). It activates only via:
+
+| Trigger Method | Example / Shortcut | Description |
+|---|---|---|
+| **URL Query Parameter** | `https://your-site.com/?edit` | Activates toolbar immediately upon page load. |
+| **URL Hash Anchor** | `https://your-site.com/#edit` | Client-side activation without causing server roundtrips. |
+| **Keyboard Shortcut** | **`Ctrl + Shift + A`** *(or `Cmd + Shift + A`)* | Toggles toolbar visibility instantly anywhere on the page. |
+| **Session Memory** | Auto-persisted in `sessionStorage` | Stays active while navigating between pages during an editing session. |
+
+---
+
+## Key Features & Built-in Improvements
+
+### 1. Exact Image src & Filename Detection
 When selecting an `<img>` tag, Agentation automatically extracts the image filename and alt text:
 ```markdown
 - Element: `img [src="p4-with-box-light.webp"] "Cognac Stripe Wallet"`
@@ -62,72 +160,6 @@ Use shorthand bracketed tags to instruct AI agents in fewer keystrokes:
 | `[Flip X]` / `[Flip Y]` | Mirror graphic | `[Flip X] face illustration to the right` |
 | `[Change Color]` | Palette adjustments | `[Change Color: #D4FF3D] make neon yellow` |
 | `[Fix Spacing]` | Margins & paddings | `[Fix Spacing] add 24px bottom margin` |
-
----
-
-## Activation Triggers
-
-Once added to a website, the toolbar can be summoned using any of the following triggers:
-
-| Trigger Method | Example / Shortcut | Description |
-|---|---|---|
-| **URL Query Parameter** | `https://your-site.com/?edit` | Activates toolbar immediately upon page load. |
-| **URL Hash Anchor** | `https://your-site.com/#edit` | Client-side activation without causing server roundtrips. |
-| **Keyboard Shortcut** | **`Ctrl + Shift + A`** *(or `Cmd + Shift + A`)* | Toggles toolbar visibility instantly anywhere on the page. |
-| **Session Memory** | Auto-persisted in `sessionStorage` | Stays active while navigating between pages during an editing session. |
-
----
-
-## Quickstart & Integration
-
-### Option 1: Static HTML, PHP, or WordPress (1-Line Embed)
-
-1. Copy `dist/agentation-widget.js` into your project assets folder (e.g., `assets/js/`).
-2. Add the defer script tag right before the closing `</body>` tag (e.g., in `footer.php` or `index.html`):
-
-```html
-<!-- Agentation Visual Feedback Toolbar -->
-<script src="assets/js/agentation-widget.js" defer></script>
-</body>
-```
-
-### Option 2: Next.js (App Router / Pages Router) & React
-
-Create a client-side wrapper in `components/AgentationWidget.tsx`:
-
-```tsx
-'use client';
-
-import Script from 'next/script';
-
-export default function AgentationWidget() {
-  return (
-    <Script
-      src="/assets/js/agentation-widget.js"
-      strategy="lazyOnload"
-      onLoad={() => {
-        console.log('[Agentation] Visual Editor ready. Press Ctrl+Shift+A to toggle.');
-      }}
-    />
-  );
-}
-```
-
-Include `<AgentationWidget />` inside your root layout (`app/layout.tsx`).
-
-### Option 3: Universal Browser Bookmarklet (Zero Code Installation)
-
-Want to use Agentation on a third-party website or a production site without modifying source code?
-
-1. Open your browser bookmarks manager and click **Add New Bookmark**.
-2. Name it **Agentation Visual Editor**.
-3. In the URL field, paste the following snippet:
-
-```javascript
-javascript:(function(){if(window.AgentationWidget){window.AgentationWidget.toggleAgentation();return;}var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/abdulmoiz0portfolio/agentation-visual-editor@main/dist/agentation-widget.min.js';s.onload=function(){window.AgentationWidget&&window.AgentationWidget.mountAgentation();};document.body.appendChild(s);})();
-```
-
-Now, clicking that bookmark on **any** web page injects the toolbar instantly!
 
 ---
 
@@ -187,9 +219,9 @@ agentation-visual-editor/
 
 Maintained with excellence by **[Abdul Moiz Baig](https://www.linkedin.com/in/a-moiz-baig/)** & the **[Automatixes](https://automatixes.com)** engineering team.
 
-- 🌐 **Agency Website:** [automatixes.com](https://automatixes.com)
-- 💼 **LinkedIn:** [linkedin.com/in/a-moiz-baig](https://www.linkedin.com/in/a-moiz-baig/)
-- 💬 **Direct WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
-- ✉️ **Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
+- **Agency Website:** [automatixes.com](https://automatixes.com)
+- **LinkedIn:** [linkedin.com/in/a-moiz-baig](https://www.linkedin.com/in/a-moiz-baig/)
+- **WhatsApp / Phone:** [+92 336 6920141](https://wa.me/923366920141)
+- **Email:** [contact@automatixes.com](mailto:contact@automatixes.com)
 
 Distributed under the **MIT License**. Free for personal, commercial, and agency use.
