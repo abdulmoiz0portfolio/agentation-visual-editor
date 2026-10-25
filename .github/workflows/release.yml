@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Bundle Integrity
+        run: |
+          test -f dist/agentation-widget.js
+          test -f dist/agentation-widget.min.js
+          echo "Bundle verification passed."
